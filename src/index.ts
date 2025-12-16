@@ -905,6 +905,6 @@ ${dailyForecasts.length > 0 ? dailyForecasts.join('\n\n') : '예보 정보를 �
         }
     )
 
-    // Smithery에서 요구하는 McpServer 인스턴스 반환
-    return server
+    // Smithery에서 요구하는 server.server 객체 반환
+    return server.server
 }
